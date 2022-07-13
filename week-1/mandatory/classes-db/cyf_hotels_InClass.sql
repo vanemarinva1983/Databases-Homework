@@ -47,3 +47,9 @@ SELECT name,address FROM customers WHERE id = 1;
 SELECT * FROM bookings WHERE checkin_date > '2019/10/01';
 SELECT * FROM bookings WHERE checkin_date > '2019/10/01' AND nights >= 2;
 SELECT * FROM hotels WHERE postcode = 'CM194JS' OR postcode = 'TR209AX';
+
+--week3
+
+INSERT INTO hotels (name,        rooms, postcode) 
+            VALUES ('New Hotel', 5,     'ABC001');
+
